@@ -100,7 +100,7 @@ const showDirections = (destination) => {
   });
 
   const origin = userLocation || center;
-
+  //directions method
   directionsService.route(
     {
       origin,

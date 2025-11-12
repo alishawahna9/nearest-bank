@@ -25,7 +25,6 @@ const useStyles = makeStyles(() => ({
     direction: "rtl",
     backgroundColor: props.darkMode ? "#0d1117" : "#f8f9fa",
 
-    /* 🎨 עיצוב הסקרול לפי מצב */
     "&::-webkit-scrollbar": {
       width: "8px",
     },

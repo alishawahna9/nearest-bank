@@ -1,7 +1,7 @@
 import { makeStyles } from "@mui/styles";
 
 export const darkMapStyle = [
-  { elementType: "geometry", stylers: [{ color: "#1f2937" }] }, // רקע כללי של המפה
+  { elementType: "geometry", stylers: [{ color: "#1f2937" }] },
   { elementType: "labels.text.fill", stylers: [{ color: "#ffffff" }] },
   { elementType: "labels.text.stroke", stylers: [{ color: "#1f2937" }] },
 
@@ -21,7 +21,6 @@ export const darkMapStyle = [
     stylers: [{ color: "#ffffff" }],
   },
 
-  // כבישים
   {
     featureType: "road",
     elementType: "geometry",
@@ -48,7 +47,7 @@ export const darkMapStyle = [
     stylers: [{ color: "#ffffff" }],
   },
 
-  // הסתרת POIs
+  // POIs
   {
     featureType: "poi",
     stylers: [{ visibility: "off" }],
