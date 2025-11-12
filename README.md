@@ -28,4 +28,6 @@ JavaScript (ES6+)
 
 HTML5 / CSS3
 
+Git GitHub actions
+
 Environment Variables (.env) for API key security
